@@ -59,8 +59,14 @@ document.getElementById('scopri').addEventListener('click', function(){
     
   }
 
-  else{
-    document.getElementById('vincitore').innerHTML='Hai perso :c'
+  else if(numero1<numero2){
+    document.getElementById('vincitore').
+    innerHTML='Hai perso :c'
+  }
+
+  else if(numero1==numero2){
+    document.getElementById('vincitore').
+    innerHTML='Pari, riprova!'
   }
 })
 
